@@ -6,11 +6,11 @@ cssbuttons is an MIT-licensed open source project full of pure CSS & HTML button
 </h2> 
 
 <p align="center">
-  <a href="https://github.com/twbs/bootstrap/issues/new?template=bug_report.md">Report bug</a>
+  <a href="/">Report bug</a>
   ·
-  <a href="https://github.com/twbs/bootstrap/issues/new?template=feature_request.md">Request button</a>
+  <a href="/">Request button</a>
   ·
-  <a href="https://github.com/twbs/bootstrap/issues/new?template=feature_request.md">Request feature</a>
+  <a href="/">Request feature</a>
 </p>
 
 ![](./img/main.png)
@@ -18,7 +18,7 @@ cssbuttons is an MIT-licensed open source project full of pure CSS & HTML button
 
 # Report Bug
 
-Found a bug? Report it here.
+Found a bug? Report it [here](https://github.com/r1/cssbuttons/blob/master/REPORTBUG.md).
 
 # Request Button
 

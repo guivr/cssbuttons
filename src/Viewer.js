@@ -1,4 +1,3 @@
-import React from "react";
 import './Viewer.css';
 import './expandButton';
 import countapi from 'countapi-js';
