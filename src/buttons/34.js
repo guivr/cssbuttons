@@ -21,9 +21,7 @@ function App() {
   font-size: 1rem;
   color: white;
   padding: 0.7rem 2rem;
-  border: 10px solid;
   border-image-slice: 1;
-  border-width: 5px;
   border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
 }`}</pre>
                 </div>

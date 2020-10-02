@@ -7,9 +7,13 @@ function Panel() {
   return (
     <div id="panel">
       <div id="header">
-        <a class="logo" href="/">
-          cssbuttons
-        </a>
+      <a href="/" class="obglitcha">
+<h1 class="cbglitch">
+  <span aria-hidden="true">cssbuttons</span>
+  cssbuttons
+  <span aria-hidden="true">cssbuttons</span>
+</h1>
+</a>
         <div id="expandButton"></div>
       </div>
       <div id="panelScrim">
