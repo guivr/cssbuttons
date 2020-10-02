@@ -1,3 +1,4 @@
+import React from 'react';
 import './Viewer.css';
 import './expandButton';
 import countapi from 'countapi-js';
@@ -178,7 +179,7 @@ function Viewer() {
         <div class="btndiv dark">
           <a href="/buttons/1" class="bn1">Button</a>
         </div>
-        <div class="btndiv dark">
+        <div className="btndiv dark">
           <a href="/buttons/0" class="">
             <button>Button</button>
           </a>
