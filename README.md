@@ -1,4 +1,4 @@
-<p align="center"><a href="https://r1.github.io/cssbuttons" target="_blank" rel="noopener noreferrer"><img width="300" src="./img/buttons.png" alt="Vue logo"></a></p>
+<p align="center"><a href="https://cssbuttons.vercel.app/" target="_blank" rel="noopener noreferrer"><img width="300" src="./img/buttons.png" alt="Vue logo"></a></p>
 <h2 align="center">🚀 cssbuttons open-source codebase</h2> 
 
 <h2 align="center">
