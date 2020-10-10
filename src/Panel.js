@@ -52,7 +52,7 @@ function Panel() {
             <ul>
               <li>
                 <a class="bglink"
-                  href="https://github.com/cssbuttons/buttons/"
+                  href="https://github.com/r1/cssbuttonsv"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
