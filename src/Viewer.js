@@ -11,6 +11,9 @@ function Viewer() {
   return (
     <div id="viewer">
       <div id="viewerbuttons">
+      <div class="btndiv dark">
+          <a class="bn49" href="/buttons/49">Button</a>
+        </div>
         <div class="btndiv dark">
           <a class="bn48" href="/buttons/48">Button</a>
         </div>

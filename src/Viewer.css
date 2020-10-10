@@ -1130,6 +1130,22 @@ a.bn11:hover {
   -webkit-text-fill-color: transparent;
 }
 
+.bn49 {
+  border: 0;
+  text-align: center;
+  display: inline-block;
+  padding: 14px;
+  width: 150px;
+  margin: 7px;
+  color: #ffffff;
+  background-color: #36a2eb;
+  border-radius: 8px;
+  font-family: "proxima-nova-soft", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  transition: box-shadow 200ms ease-out;
+}
+
 /** Button End **/
 
 @media all and (min-width: 1500px) {
@@ -1200,4 +1216,9 @@ a.bn11:hover {
   #viewer {
     padding-left: 0;
   }
+}
+
+.firefoxbn {
+  width: 45px;
+  height: 40px;
 }

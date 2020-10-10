@@ -52,10 +52,21 @@ h1 {
   font-weight: 500;
 }
 
-h2 {
+.h2bg {
   padding: 0;
   margin: 16px 0;
-  font-size: calc(var(--font-size) + 4px);
+  font-size: calc(var(--font-size) + 7px);
+  line-height: var(--line-height);
+  font-weight: 700;
+  color: var(--color-white);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+.bglink {
+  padding: 0;
+  margin: 16px 0;
+  font-size: calc(var(--font-size));
   line-height: var(--line-height);
   font-weight: 700;
   color: var(--color-white);
