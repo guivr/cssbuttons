@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from "react";
+import React from "react";
 import { BrowserRouter as Switch } from "react-router-dom";
 import buttons0 from "./buttons/0";
 import buttons1 from "./buttons/1";
@@ -50,21 +50,17 @@ import buttons46 from "./buttons/46";
 import buttons47 from "./buttons/47";
 import buttons48 from "./buttons/48";
 import buttons49 from "./buttons/49";
-import Loader from "./Loader";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Panel from "./Panel";
 import Viewer from "./Viewer";
 
-const Viewer1 = lazy(() => import("./Viewer"));
 
 function App() {
   return (
     <Router>
       <div>
         <Switch>
-          <Suspense fallback={<Loader />}>
-            <Route path="/" exact component={Viewer1} />
-          </Suspense>
+          <Route path="/" exact component={Viewer} />
           <Route path="/" component={Panel} />
           <Route path="/buttons/0" exact component={buttons0} />
           <Route path="/buttons/1" exact component={buttons1} />
