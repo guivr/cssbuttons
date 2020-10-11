@@ -52,20 +52,20 @@ import buttons48 from "./buttons/48";
 import buttons49 from "./buttons/49";
 import Loader from "./Loader";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import Panel from "./Panel";
+import Viewer from "./Viewer";
 
-const Panel = lazy(() => import("./Panel"));
-const Viewer = lazy(() => import("./Viewer"));
-
+const Viewer1 = lazy(() => import("./Viewer"));
 
 function App() {
   return (
     <Router>
       <div>
         <Switch>
-          <Suspense fallback={<Loader/>}>
-            <Panel path="/" exact/>
-            <Viewer path="/" exact/>
+          <Suspense fallback={<Loader />}>
+            <Route path="/" exact component={Viewer1} />
           </Suspense>
+          <Route path="/" component={Panel} />
           <Route path="/buttons/0" exact component={buttons0} />
           <Route path="/buttons/1" exact component={buttons1} />
           <Route path="/buttons/2" exact component={buttons2} />

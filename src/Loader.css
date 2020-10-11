@@ -1,6 +1,7 @@
 body {
   background: #0e0e10;
 }
+
 .loader {
   position: relative;
   padding-top: 100px;
@@ -8,6 +9,7 @@ body {
   margin: auto;
   background: #0e0e10;
 }
+
 .loader .circle {
   position: absolute;
   width: 38px;

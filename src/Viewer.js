@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import './Viewer.css';
 import './expandButton';
 import countapi from 'countapi-js';
@@ -6,7 +6,7 @@ import countapi from 'countapi-js';
 countapi.visits().then((result) => {
   console.log(result.value);
 });
- 
+
 function Viewer() {
   return (
     <div id="viewer">
