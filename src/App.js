@@ -52,7 +52,6 @@ import buttons46 from './buttons/46';
 import buttons47 from './buttons/47';
 import buttons48 from './buttons/48';
 import buttons49 from './buttons/49';
-import howtouse from './docs/how-to-use';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
   
 function App() {
@@ -112,7 +111,6 @@ function App() {
       <Route path="/buttons/47" exact component={buttons47} />
       <Route path="/buttons/48" exact component={buttons48} />
       <Route path="/buttons/49" exact component={buttons49} />
-      <Route path="/docs/how-to-use" exact component={howtouse} />
       </Switch>
     </div>
     </Router>
