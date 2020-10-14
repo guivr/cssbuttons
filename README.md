@@ -18,13 +18,13 @@ cssbuttons is an MIT-licensed open source project full of pure CSS & HTML button
 
 # Report Bug
 
-Found a bug? Report it [here](https://github.com/r1/cssbuttons/blob/master/REPORTBUG.md).
+Found a bug? Report it [here](https://github.com/r1/cssbuttons/issues).
 
 # Request Button
 
 Want to contribute and add a new button/buttons?
 
-Read this
+Read [this](https://github.com/r1/cssbuttons/blob/master/CONTRIBUTING.md)
 
 # Request Feature
 
