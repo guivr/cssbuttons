@@ -1,9 +1,11 @@
+# Adding a button
+## To add a button fill in the HTML and CSS sections. You can add multiple buttons.
+
 ## HTML#1
 < your html here >
 
 ## CSS#1
 < your css here >
-
 
 ## HTML#2
 < your html here >

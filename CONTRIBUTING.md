@@ -1,5 +1,4 @@
 # Contributing to cssbuttons
-
 Thanks for contributing to cssbuttons!
 
 ## Different ways to contribute

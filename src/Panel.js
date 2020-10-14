@@ -52,7 +52,7 @@ function Panel() {
             <ul>
               <li>
                 <a class="bglink"
-                  href="https://github.com/r1/cssbuttonsv"
+                  href="https://github.com/r1/cssbuttons/blob/master/CONTRIBUTING.md"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -61,7 +61,7 @@ function Panel() {
               </li>
               <li>
                 <a class="bglink"
-                  href="https://github.com/cssbuttons/buttons/"
+                  href="https://github.com/r1/cssbuttons/blob/master/CONTRIBUTING.md"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
