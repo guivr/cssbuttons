@@ -6,11 +6,11 @@ cssbuttons is an MIT-licensed open source project full of pure CSS & HTML button
 </h2> 
 
 <p align="center">
-  <a href="/">Report bug</a>
+  <a href="https://github.com/r1/cssbuttons/issues">Report bug</a>
   ·
-  <a href="/">Request button</a>
+  <a href="https://github.com/r1/cssbuttons/blob/master/CONTRIBUTING.md">Request button</a>
   ·
-  <a href="/">Request feature</a>
+  <a href="https://github.com/r1/cssbuttons/blob/master/CONTRIBUTING.md">Request feature</a>
 </p>
 
 ![](./img/main.png)
@@ -30,7 +30,7 @@ Read [this](https://github.com/r1/cssbuttons/blob/master/CONTRIBUTING.md)
 
 Want to suggest a new feature? 
 
-Suggest it here.
+Suggest it [here](https://github.com/r1/cssbuttons/blob/master/CONTRIBUTING.md).
 
 # Contributing
 We welcome any and all contributions to the website.
