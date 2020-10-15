@@ -1,7 +1,5 @@
 import React from "react";
 import "./Panel.css";
-import { Helmet } from "react-helmet";
-import "./expandButton";
 
 function Panel() {
   return (
@@ -93,9 +91,6 @@ function Panel() {
           </div>
         </div>
       </div>
-      <Helmet>
-        <script src="/expandButton.js" type="text/javascript"></script>
-      </Helmet>
     </div>
   );
 }

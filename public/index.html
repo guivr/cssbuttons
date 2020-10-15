@@ -5,10 +5,7 @@
     <link rel="icon" href="%PUBLIC_URL%/buttons.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="cssbuttons"
-    />
+    <meta name="description" content="cssbuttons" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -23,12 +20,20 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>cssbuttons</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-      <meta name="google-site-verification" content="CetNYcGBpQOungO3wto30N4VIto6PNZjGjkk36NEmtY" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <meta
+      name="google-site-verification"
+      content="CetNYcGBpQOungO3wto30N4VIto6PNZjGjkk36NEmtY"
+    />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -43,5 +48,26 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
       -->
+    <script type="text/javascript">
+      window.onload = function () {
+        var panel = document.getElementById("panel");
+        var expandButton = document.getElementById("expandButton");
+        var panelScrim = document.getElementById("panelScrim");
+
+        if (expandButton) {
+          expandButton.addEventListener("click", function (event) {
+            panel.classList.toggle("open");
+            event.preventDefault();
+          });
+        }
+
+        if (expandButton) {
+          panelScrim.onclick = function (event) {
+            event.preventDefault();
+            panel.classList.toggle("open");
+          };
+        }
+      };
+    </script>
   </body>
 </html>
