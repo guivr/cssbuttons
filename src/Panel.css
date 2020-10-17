@@ -447,6 +447,7 @@ body.home #panel #content h2 {
   #panel #expandButton {
     display: block;
   }
+  
   #panel {
     position: absolute;
     left: 0;

@@ -5,7 +5,7 @@ function Panel() {
   return (
     <div id="panel">
       <div id="header">
-        <a href="/" class="obglitcha">
+        <a href="/" class="obglitcha" onClick="https://google.com">
           <h1 class="cbglitch">
             <span aria-hidden="true">cssbuttons</span>
             cssbuttons
