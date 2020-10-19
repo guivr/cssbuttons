@@ -23,7 +23,7 @@ function Viewer() {
           <div><a href="/buttons/46" tabindex="0"><img class="bn46" src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred.png" alt="bn45" /></a></div>
         </div>
         <div class="btndiv dark">
-          <div><a href="/buttons/45" tabindex="0"><img class="bn45" src="https://cdn.worldvectorlogo.com/logos/google-play-badge.svg" alt="bn45" /></a></div>
+          <div><a href="/buttons/45" tabindex="0"><img class="bn45" src="https://cdn.worldvectorlogo.com/logos/google-2.svg" alt="bn45" /></a></div>
         </div>
         <div class="btndiv dark">
           <a href='/buttons/44'><img class="bn44" src='https://developer.microsoft.com/en-us/store/badges/images/English_get-it-from-MS.png' alt='Badge' /></a>
