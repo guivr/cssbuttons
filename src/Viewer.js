@@ -2,6 +2,7 @@ import React from "react";
 import './Viewer.css';
 import countapi from 'countapi-js';
 
+// View viewer count in network tab
 countapi.visits().then((result) => {
   console.log(result.value);
 });
