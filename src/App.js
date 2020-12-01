@@ -50,9 +50,12 @@ import buttons46 from "./buttons/46";
 import buttons47 from "./buttons/47";
 import buttons48 from "./buttons/48";
 import buttons49 from "./buttons/49";
+import buttons50 from "./buttons/50";
+import buttons51 from "./buttons/51";
+import buttons52 from "./buttons/52";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Panel from "./Panel";
-import Viewer from "./Viewer";
+import Panel from "./components/Panel/Panel.js";
+import Viewer from "./components/Viewer/Viewer.js";
 
 
 function App() {
@@ -112,6 +115,9 @@ function App() {
           <Route path="/buttons/47" exact component={buttons47} />
           <Route path="/buttons/48" exact component={buttons48} />
           <Route path="/buttons/49" exact component={buttons49} />
+          <Route path="/buttons/50" exact component={buttons50} />
+          <Route path="/buttons/51" exact component={buttons51} />
+          <Route path="/buttons/52" exact component={buttons52} />
         </Switch>
       </div>
     </Router>

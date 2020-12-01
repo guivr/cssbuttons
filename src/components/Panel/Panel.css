@@ -217,10 +217,10 @@ h1 a {
   display: none;
   background-color: var(--text-color);
   background-size: var(--icon-size);
-  -webkit-mask-image: url(menu_black.svg);
+  -webkit-mask-image: url(./menu_black.svg);
   -webkit-mask-position: 50% 50%;
   -webkit-mask-repeat: no-repeat;
-  mask-image: url(menu_black.svg);
+  mask-image: url(./menu_black.svg);
   mask-position: 50% 50%;
   mask-repeat: no-repeat;
   cursor: pointer;
@@ -236,10 +236,10 @@ h1 a {
   cursor: pointer;
   background-color: var(--text-color);
   background-size: var(--icon-size);
-  -webkit-mask-image: url(menu_black.svg);
+  -webkit-mask-image: url(./menu_black.svg);
   -webkit-mask-position: 50% 50%;
   -webkit-mask-repeat: no-repeat;
-  mask-image: url(menu_black.svg);
+  mask-image: url(./menu_black.svg);
   mask-position: 50% 50%;
   mask-repeat: no-repeat;
 }
@@ -307,10 +307,10 @@ body.home #panel #sections {
   border: 0px;
   background-color: var(--text-color);
   background-size: var(--icon-size);
-  -webkit-mask-image: url(menu_black.svg);
+  -webkit-mask-image: url(./menu_black.svg);
   -webkit-mask-position: 0 50%;
   -webkit-mask-repeat: no-repeat;
-  mask-image: url(menu_black.svg);
+  mask-image: url(./menu_black.svg);
   mask-position: 0 50%;
   mask-repeat: no-repeat;
   font-family: "Roboto Mono", monospace;

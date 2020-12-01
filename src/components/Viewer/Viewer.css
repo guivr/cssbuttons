@@ -10,11 +10,9 @@
 
   --font-size: 16px;
   --line-height: 26px;
-
+  --viewer-width: 300px;
   --border-style: 2.9px solid #776e62;
   --header-height: 48px;
-  --panel-width: 300px;
-  --panel-padding: 16px;
   --icon-size: 20px;
 }
 
@@ -109,7 +107,7 @@ p {
 }
 
 #viewer {
-  padding-left: var(--panel-width);
+  padding-left: var(--viewer-width);
 }
 
 #viewerbuttons {
@@ -1156,7 +1154,7 @@ a.bn11:hover {
 
 @media all and (min-width: 1700px) {
   :root {
-    --panel-width: 360px;
+    --viewer-width: 359px;
     --font-size: 18px;
     --line-height: 28px;
     --header-height: 56px;
