@@ -11,296 +11,296 @@ function Viewer() {
   return (
     <div id="viewer">
       <div id="viewerbuttons">
-        <div class="btndiv dark">
+        <div className="btndiv dark">
           <a href="/buttons/52">
-            <button class="w3-btn w3-white">
+            <button className="w3-btn w3-white">
               <i>Button</i>
             </button>
           </a>
         </div>
-        <div class="btndiv dark">
+        <div className="btndiv dark">
           <a href="/buttons/51">
-            <button class="w3-btn w3-blue">
+            <button className="w3-btn w3-blue">
               <b>Button</b>
             </button>
           </a>
         </div>
-        <div class="btndiv dark">
+        <div className="btndiv dark">
           <a href="/buttons/50">
             <p>
-              <button class="w3-btn w3-deep-purple">Deep Purple</button>
+              <button className="w3-btn w3-deep-purple">Deep Purple</button>
             </p>
           </a>
         </div>
-        <div class="btndiv dark">
-          <a class="bn49" href="/buttons/49">
+        <div className="btndiv dark">
+          <a className="bn49" href="/buttons/49">
             Button
           </a>
         </div>
-        <div class="btndiv dark">
-          <a class="bn48" href="/buttons/48">
+        <div className="btndiv dark">
+          <a className="bn48" href="/buttons/48">
             Button
           </a>
         </div>
-        <div class="btndiv dark">
-          <a class="bn47" href="/buttons/47">
+        <div className="btndiv dark">
+          <a className="bn47" href="/buttons/47">
             Button
           </a>
         </div>
-        <div class="btndiv light">
+        <div className="btndiv light">
           <div>
             <a href="/buttons/46" tabindex="0">
               <img
-                class="bn46"
+                className="bn46"
                 src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred.png"
                 alt="bn45"
               />
             </a>
           </div>
         </div>
-        <div class="btndiv dark">
+        <div className="btndiv dark">
           <div>
             <a href="/buttons/45" tabindex="0">
               <img
-                class="bn45"
+                className="bn45"
                 src="https://cdn.worldvectorlogo.com/logos/google-2.svg"
                 alt="bn45"
               />
             </a>
           </div>
         </div>
-        <div class="btndiv dark">
+        <div className="btndiv dark">
           <a href="/buttons/44">
             <img
-              class="bn44"
+              className="bn44"
               src="https://developer.microsoft.com/en-us/store/badges/images/English_get-it-from-MS.png"
               alt="Badge"
             />
           </a>
         </div>
-        <div class="btndiv dark">
+        <div className="btndiv dark">
           <a href="/buttons/43">
-            <button class="btn41-43 btn-43">Button</button>
+            <button className="btn41-43 btn-43">Button</button>
           </a>
         </div>
-        <div class="btndiv dark">
+        <div className="btndiv dark">
           <a href="/buttons/42">
-            <button class="btn41-43 btn-42">Button</button>
+            <button className="btn41-43 btn-42">Button</button>
           </a>
         </div>
-        <div class="btndiv dark">
+        <div className="btndiv dark">
           <a href="/buttons/41">
-            <button class="btn41-43 btn-41">Button</button>
+            <button className="btn41-43 btn-41">Button</button>
           </a>
         </div>
-        <div class="btndiv dark">
-          <a class="bn40" href="/buttons/40">
-            Button
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a class="bn39" href="/buttons/39">
-            <span class="bn39span">Button</span>
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/38" class="bn3637 bn38">
-            Hover
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/37" class="bn3637 bn37">
-            Button
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/36" class="bn3637 bn36">
-            Button
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/35" class="bn35">
-            Button
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/34">
-            <button class="bn34">Button</button>
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/33">
-            <button class="bn33">Button</button>
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/32">
-            <button class="bn-32 bn32">Hover</button>
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a class="bn31" href="/buttons/31">
-            <span class="bn31span">Button</span>
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/30">
-            <button class="bn30">Button</button>
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/29">
-            <button class="bn29">Button</button>
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/28">
-            <button class="bn632-hover bn28">Button</button>
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/27">
-            <button class="bn632-hover bn27">Button</button>
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/26">
-            <button class="bn632-hover bn26">Button</button>
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/25">
-            <button class="bn632-hover bn25">Button</button>
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/24">
-            <button class="bn632-hover bn24">Button</button>
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/23">
-            <button class="bn632-hover bn23">Button</button>
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/22">
-            <button class="bn632-hover bn22">Button</button>
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/21">
-            <button class="bn632-hover bn21">Button</button>
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/20">
-            <button class="bn632-hover bn20">Button</button>
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/19">
-            <button class="bn632-hover bn19">Button</button>
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/18">
-            <button class="bn632-hover bn18">Button</button>
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/17" class="bn17">
-            Button
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/16" class="bn16">
-            Button
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/15" class="bn15">
-            Button
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/14" class="bn14">
-            Button
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/13" class="bn13 bn11bouncy">
-            Button
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/12">
-            <button class="w3-button w3-blue w3-border w3-border-white w3-round-large">
-              Button
-            </button>
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/11" class="bn11">
-            Button
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/10">
-            <button class="w3-button w3-black w3-round-small">Button</button>
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/9" class="bnt521">
-            <button class="bn9">
-              <span>Apple Button</span>
-            </button>
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/8">
-            <button class="bn8">
-              <i class="fa fa-home"></i> Home
-            </button>
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/7" class="bn7">
-            Button
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/6">
-            <button class="bn6">Button</button>
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/5" class="bn5">
-            Hover
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/4" class="bn4">
-            Button
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/3" class="bn3">
-            Button
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/2" class="bn2">
-            Button
-          </a>
-        </div>
-        <div class="btndiv dark">
-          <a href="/buttons/1" class="bn1">
+        <div className="btndiv dark">
+          <a className="bn40" href="/buttons/40">
             Button
           </a>
         </div>
         <div className="btndiv dark">
-          <a href="/buttons/0" class="">
+          <a className="bn39" href="/buttons/39">
+            <span className="bn39span">Button</span>
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/38" className="bn3637 bn38">
+            Hover
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/37" className="bn3637 bn37">
+            Button
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/36" className="bn3637 bn36">
+            Button
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/35" className="bn35">
+            Button
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/34">
+            <button className="bn34">Button</button>
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/33">
+            <button className="bn33">Button</button>
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/32">
+            <button className="bn-32 bn32">Hover</button>
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a className="bn31" href="/buttons/31">
+            <span className="bn31span">Button</span>
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/30">
+            <button className="bn30">Button</button>
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/29">
+            <button className="bn29">Button</button>
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/28">
+            <button className="bn632-hover bn28">Button</button>
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/27">
+            <button className="bn632-hover bn27">Button</button>
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/26">
+            <button className="bn632-hover bn26">Button</button>
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/25">
+            <button className="bn632-hover bn25">Button</button>
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/24">
+            <button className="bn632-hover bn24">Button</button>
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/23">
+            <button className="bn632-hover bn23">Button</button>
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/22">
+            <button className="bn632-hover bn22">Button</button>
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/21">
+            <button className="bn632-hover bn21">Button</button>
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/20">
+            <button className="bn632-hover bn20">Button</button>
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/19">
+            <button className="bn632-hover bn19">Button</button>
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/18">
+            <button className="bn632-hover bn18">Button</button>
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/17" className="bn17">
+            Button
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/16" className="bn16">
+            Button
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/15" className="bn15">
+            Button
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/14" className="bn14">
+            Button
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/13" className="bn13 bn11bouncy">
+            Button
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/12">
+            <button className="w3-button w3-blue w3-border w3-border-white w3-round-large">
+              Button
+            </button>
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/11" className="bn11">
+            Button
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/10">
+            <button className="w3-button w3-black w3-round-small">Button</button>
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/9" className="bnt521">
+            <button className="bn9">
+              <span>Apple Button</span>
+            </button>
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/8">
+            <button className="bn8">
+              <i className="fa fa-home"></i> Home
+            </button>
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/7" className="bn7">
+            Button
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/6">
+            <button className="bn6">Button</button>
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/5" className="bn5">
+            Hover
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/4" className="bn4">
+            Button
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/3" className="bn3">
+            Button
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/2" className="bn2">
+            Button
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/1" className="bn1">
+            Button
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/0" className="">
             <button>Button</button>
           </a>
         </div>

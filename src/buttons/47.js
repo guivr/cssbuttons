@@ -4,13 +4,13 @@ import './style.css';
 function App() {
     return (
         <div id="viewer">
-            <div class="f416">
-                <h1 class="buttonh1">Button#47</h1>
-                <a class="bn47" href="/buttons/47">Button</a>
-                <h2 class="h2source">Compatibility: <img alt="firefox" src="https://img.icons8.com/nolan/45/firefox.png" /><img alt="chrome" src="https://img.icons8.com/nolan/45/chrome.png" /><img alt="safari" src="https://img.icons8.com/nolan/45/safari.png" /><img alt="ie" src="https://img.icons8.com/nolan/45/internet-explorer.png" /></h2>
-                <h2 class="h2source">Source: <a href="https://codepen.io/thomasvaeth/pen/QpBdNo" class="avis" target="_blank" rel="noopener noreferrer">codepen.io/thomasvaeth/pen/QpBdNo</a></h2>
+            <div className="f416">
+                <h1 className="buttonh1">Button#47</h1>
+                <a className="bn47" href="/buttons/47">Button</a>
+                <h2 className="h2source">Compatibility: <img alt="firefox" src="https://img.icons8.com/nolan/45/firefox.png" /><img alt="chrome" src="https://img.icons8.com/nolan/45/chrome.png" /><img alt="safari" src="https://img.icons8.com/nolan/45/safari.png" /><img alt="ie" src="https://img.icons8.com/nolan/45/internet-explorer.png" /></h2>
+                <h2 className="h2source">Source: <a href="https://codepen.io/thomasvaeth/pen/QpBdNo" className="avis" target="_blank" rel="noopener noreferrer">codepen.io/thomasvaeth/pen/QpBdNo</a></h2>
                 <div>
-                    <pre className="prettyprint">{`<a class="bn47" href="#">Button</a>`}</pre>
+                    <pre className="prettyprint">{`<a className="bn47" href="#">Button</a>`}</pre>
                 </div>
                 <div>
                     <pre className="prettyprint">{`.bn47 {

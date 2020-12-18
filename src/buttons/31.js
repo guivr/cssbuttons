@@ -5,13 +5,13 @@ import './style.css';
 function App() {
     return (
         <div id="viewer">
-            <div class="f416">
-                <h1 class="buttonh1">Button#31</h1>
-                <a class="bn31" href="/buttons/31"><span class="bn31span">Button</span></a>
-                <h2 class="h2source">Compatibility: <img alt="firefox" src="https://img.icons8.com/nolan/45/firefox.png"/><img alt="chrome" src="https://img.icons8.com/nolan/45/chrome.png"/><img alt="safari" src="https://img.icons8.com/nolan/45/safari.png"/><img alt="ie" src="https://img.icons8.com/nolan/45/internet-explorer.png"/></h2>
-                <h2 class="h2source">Source: <a href="https://codepen.io/amberweinberg/pen/dzJERg" class="avis" target="_blank" rel="noopener noreferrer">https://codepen.io/amberweinberg/pen/dzJERg</a></h2>
+            <div className="f416">
+                <h1 className="buttonh1">Button#31</h1>
+                <a className="bn31" href="/buttons/31"><span className="bn31span">Button</span></a>
+                <h2 className="h2source">Compatibility: <img alt="firefox" src="https://img.icons8.com/nolan/45/firefox.png"/><img alt="chrome" src="https://img.icons8.com/nolan/45/chrome.png"/><img alt="safari" src="https://img.icons8.com/nolan/45/safari.png"/><img alt="ie" src="https://img.icons8.com/nolan/45/internet-explorer.png"/></h2>
+                <h2 className="h2source">Source: <a href="https://codepen.io/amberweinberg/pen/dzJERg" className="avis" target="_blank" rel="noopener noreferrer">https://codepen.io/amberweinberg/pen/dzJERg</a></h2>
                 <div>
-                    <pre className="prettyprint">{`<a class="bn31" href="/"><span class="bn31span">Button</span></a>`}</pre>
+                    <pre className="prettyprint">{`<a className="bn31" href="/"><span className="bn31span">Button</span></a>`}</pre>
                 </div>
                 <div>
                     <pre className="prettyprint">{`.bn31 {
