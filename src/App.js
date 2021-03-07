@@ -61,7 +61,7 @@ import Panel from "./components/Panel/Panel.js";
 import Viewer from "./components/Viewer/Viewer.js";
 import ReactGA from 'react-ga';
 require('dotenv').config();
-ReactGA.initialize(process.env.GA_ENV);
+ReactGA.initialize(process.env.REACT_APP_GA_ENV);
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
