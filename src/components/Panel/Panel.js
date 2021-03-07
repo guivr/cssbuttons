@@ -8,6 +8,7 @@ function Panel() {
         <a href="/" className="text-lg">
           cssbuttons.app
         </a>
+        <div id="expandButton"></div>
       </div>
       <div id="panelScrim">
         <div id="contentWrapper">
