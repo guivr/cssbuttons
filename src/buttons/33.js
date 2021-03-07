@@ -1,20 +1,30 @@
-import React from 'react';
-import './style.css';
-
+import React from "react";
+import "./style.css";
 
 function App() {
-    return (
-        <div id="viewer">
-            <div className="f416">
-                <h1 className="buttonh1">Button#33</h1>
-                <a href="/buttons/33"><button className="bn33">Button</button></a>
-                <h2 className="h2source">Compatibility: <img alt="firefox" src="https://img.icons8.com/nolan/45/firefox.png"/><img alt="chrome" src="https://img.icons8.com/nolan/45/chrome.png"/><img alt="safari" src="https://img.icons8.com/nolan/45/safari.png"/><img alt="ie" src="https://img.icons8.com/nolan/45/internet-explorer.png"/></h2>
-                <h2 className="h2source">Source: <a href="https://codepen.io/chriscoyier/pen/ZVYXRx" className="avis" target="_blank" rel="noopener noreferrer">https://codepen.io/chriscoyier/pen/ZVYXRx</a></h2>
-                <div>
-                    <pre className="prettyprint">{`<a href="/"><button className="bn33">Button</button></a>`}</pre>
-                </div>
-                <div>
-                    <pre className="prettyprint">{`.bn33 {
+  return (
+    <div id="viewer">
+      <div className="f416">
+        <h1 className="buttonh1">Button#33</h1>
+        <a href="/buttons/33">
+          <button className="bn33">Button</button>
+        </a>
+        <h2 className="h2source">
+          Creator:{" "}
+          <a
+            href="https://codepen.io/chriscoyier/pen/ZVYXRx"
+            className="avis"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            https://codepen.io/chriscoyier/pen/ZVYXRx
+          </a>
+        </h2>
+        <div>
+          <pre className="prettyprint">{`<a href="/"><button className="bn33">Button</button></a>`}</pre>
+        </div>
+        <div>
+          <pre className="prettyprint">{`.bn33 {
   border: 5em;
   cursor: pointer;
   outline: none;
@@ -29,10 +39,10 @@ function App() {
   transition: box-shadow 0.25s;
   color: white;
 }`}</pre>
-                </div>
-            </div>
         </div>
-    );
+      </div>
+    </div>
+  );
 }
 
 export default App;

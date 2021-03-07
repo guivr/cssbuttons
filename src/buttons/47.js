@@ -1,19 +1,30 @@
-import React from 'react';
-import './style.css';
+import React from "react";
+import "./style.css";
 
 function App() {
-    return (
-        <div id="viewer">
-            <div className="f416">
-                <h1 className="buttonh1">Button#47</h1>
-                <a className="bn47" href="/buttons/47">Button</a>
-                <h2 className="h2source">Compatibility: <img alt="firefox" src="https://img.icons8.com/nolan/45/firefox.png" /><img alt="chrome" src="https://img.icons8.com/nolan/45/chrome.png" /><img alt="safari" src="https://img.icons8.com/nolan/45/safari.png" /><img alt="ie" src="https://img.icons8.com/nolan/45/internet-explorer.png" /></h2>
-                <h2 className="h2source">Source: <a href="https://codepen.io/thomasvaeth/pen/QpBdNo" className="avis" target="_blank" rel="noopener noreferrer">codepen.io/thomasvaeth/pen/QpBdNo</a></h2>
-                <div>
-                    <pre className="prettyprint">{`<a className="bn47" href="#">Button</a>`}</pre>
-                </div>
-                <div>
-                    <pre className="prettyprint">{`.bn47 {
+  return (
+    <div id="viewer">
+      <div className="f416">
+        <h1 className="buttonh1">Button#47</h1>
+        <a className="bn47" href="/buttons/47">
+          Button
+        </a>
+        <h2 className="h2source">
+          Creator:{" "}
+          <a
+            href="https://codepen.io/thomasvaeth/pen/QpBdNo"
+            className="avis"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            codepen.io/thomasvaeth/pen/QpBdNo
+          </a>
+        </h2>
+        <div>
+          <pre className="prettyprint">{`<a className="bn47" href="#">Button</a>`}</pre>
+        </div>
+        <div>
+          <pre className="prettyprint">{`.bn47 {
   position: relative;
   padding: 1rem 2rem 0.5rem 2.5rem;
   color: #000000;
@@ -46,10 +57,10 @@ function App() {
   left: 0;
 }
 `}</pre>
-                </div>
-            </div>
         </div>
-    );
+      </div>
+    </div>
+  );
 }
 
 export default App;

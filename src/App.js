@@ -53,10 +53,16 @@ import buttons49 from "./buttons/49";
 import buttons50 from "./buttons/50";
 import buttons51 from "./buttons/51";
 import buttons52 from "./buttons/52";
+import buttons53 from "./buttons/53";
+import buttons54 from "./buttons/54";
+import buttons55 from "./buttons/55";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Panel from "./components/Panel/Panel.js";
 import Viewer from "./components/Viewer/Viewer.js";
+import ReactGA from 'react-ga';
 
+ReactGA.initialize(process.env.GA_ENV);
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   return (
@@ -118,6 +124,9 @@ function App() {
           <Route path="/buttons/50" exact component={buttons50} />
           <Route path="/buttons/51" exact component={buttons51} />
           <Route path="/buttons/52" exact component={buttons52} />
+          <Route path="/buttons/53" exact component={buttons53} />
+          <Route path="/buttons/54" exact component={buttons54} />
+          <Route path="/buttons/55" exact component={buttons55} />
         </Switch>
       </div>
     </Router>

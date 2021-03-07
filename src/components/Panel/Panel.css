@@ -5,14 +5,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 
 :root {
-  --background-color: #0e0e10;
+  --background-color: #121212;
   --color-whie: #ffffff;
   --text-color: rgb(255, 255, 255);
   --color-black: #030303;
   --secondary-text-color: #ffffff;
   --font-size: 16px;
   --line-height: 26px;
-  --border-style: 2.9px solid #776e62;
   --header-height: 48px;
   --panel-width: 300px;
   --panel-padding: 16px;
@@ -43,7 +42,7 @@ body {
 
 a {
   text-decoration: none;
-  font-family: "Inter", sans-serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 h1 {
@@ -55,23 +54,20 @@ h1 {
 .h2bg {
   padding: 0;
   margin: 16px 0;
+  font-family: 'Roboto Mono', monospace;
   font-size: calc(var(--font-size) + 7px);
   line-height: var(--line-height);
-  font-weight: 700;
   color: var(--color-white);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Ubuntu, "Helvetica Neue", sans-serif;
 }
 
 .bglink {
   padding: 0;
   margin: 16px 0;
+  font-family: 'Roboto Mono', monospace;
   font-size: calc(var(--font-size));
   line-height: var(--line-height);
-  font-weight: 700;
   color: var(--color-white);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Ubuntu, "Helvetica Neue", sans-serif;
+
 }
 
 h3 {
@@ -88,97 +84,6 @@ h1 a {
   color: var(--color-white);
 }
 
-.obglitcha {
-  text-decoration: none;
-}
-
-.cbglitch {
-  font-size: large;
-  font-weight: 700;
-  text-transform: uppercase;
-  position: relative;
-
-  text-shadow: 0.05em 0 0 rgba(122, 12, 12, 0.75),
-    -0.025em -0.05em 0 rgba(192, 35, 23, 0.75),
-    0.025em 0.05em 0 rgba(190, 40, 13, 0.75);
-
-  animation: cbglitch 500ms infinite;
-  text-decoration: none;
-}
-
-.cbglitch span {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.cbglitch span:first-child {
-  animation: cbglitch 650ms infinite;
-  clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
-  transform: translate(-0.025em, -0.0125em);
-  /* color: green; */
-  opacity: 0.8;
-}
-
-.cbglitch span:last-child {
-  animation: cbglitch 375ms infinite;
-  clip-path: polygon(0 80%, 100% 20%, 100% 100%, 0 100%);
-  transform: translate(0.0125em, 0.025em);
-  /* color: red; */
-  opacity: 0.8;
-}
-
-@keyframes cbglitch {
-  0% {
-    text-shadow: 0.05em 0 0 rgba(221, 19, 19, 0.75),
-      -0.05em -0.025em 0 rgba(192, 14, 14, 0.75),
-      -0.025em 0.05em 0 rgba(160, 16, 16, 0.75);
-  }
-  14% {
-    text-shadow: 0.05em 0 0 rgb(175, 12, 12),
-      -0.05em -0.025em 0 rgba(194, 21, 21, 0.938),
-      -0.025em 0.05em 0 rgba(185, 28, 17, 0.75);
-  }
-  15% {
-    text-shadow: -0.05em -0.025em 0 rgb(207, 23, 23),
-      0.025em 0.025em 0 rgb(168, 13, 13),
-      -0.05em -0.05em 0 rgb(167, 9, 9);
-  }
-  49% {
-    text-shadow: -0.05em -0.025em 0 rgb(207, 51, 23),
-      0.025em 0.025em 0 rgb(207, 23, 23),
-      -0.05em -0.05em 0 rgb(150, 9, 9);
-  }
-  50% {
-    text-shadow: 0.025em 0.05em 0 rgba(230, 7, 7, 0.75),
-      0.05em 0 0 rgba(163, 9, 9, 0.75), 0 -0.05em 0 rgba(163, 15, 15, 0.75);
-  }
-  99% {
-    text-shadow: 0.025em 0.05em 0 rgba(204, 29, 29, 0.75),
-      0.05em 0 0 rgba(197, 15, 15, 0.75), 0 -0.05em 0 rgba(161, 17, 17, 0.75);
-  }
-  100% {
-    text-shadow: -0.025em 0 0 rgba(214, 32, 32, 0.75),
-      -0.025em -0.025em 0 rgb(150, 15, 15),
-      -0.025em -0.05em 0 rgba(199, 6, 6, 0.75);
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  *,
-  ::before,
-  ::after {
-    animation-delay: -1ms !important;
-    animation-duration: 1ms !important;
-    animation-iteration-count: 1 !important;
-    background-attachment: initial !important;
-    scroll-behavior: auto !important;
-    transition-duration: 0s !important;
-    transition-delay: 0s !important;
-  }
-}
-
-
 #header {
   display: flex;
   height: var(--header-height);
@@ -189,6 +94,7 @@ h1 a {
 
 #header a {
   padding-left: var(--panel-padding);
+  font-family: 'Roboto Mono', monospace;
   flex: 1;
   display: flex;
   align-items: center;
@@ -197,7 +103,7 @@ h1 a {
 }
 
 #panel {
-  background-color: #0e0e10;
+  background-color: #121212;
   position: fixed;
   z-index: 100;
   left: 0px;

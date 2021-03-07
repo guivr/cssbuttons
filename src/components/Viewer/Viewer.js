@@ -1,16 +1,33 @@
 import React from "react";
 import "./Viewer.css";
-import countapi from "countapi-js";
-
-// View viewer count in network tab
-countapi.visits().then((result) => {
-  console.log(result.value);
-});
+import "./Viewer.scss";
 
 function Viewer() {
   return (
     <div id="viewer">
       <div id="viewerbuttons">
+        <div className="btndiv dark">
+          <a
+            className="inline-flex items-center px-4 py-2 mt-2 font-semibold tracking-tighter text-white transition duration-500 ease-in-out transform bg-transparent border rounded-lg text-md md:mt-0 hover:text-black hover:bg-white focus:shadow-outline"
+            href="/buttons/55"
+          >
+            <div className="flex text-lg tracking-tighter">
+              <span className="justify-center">Buttons</span>
+            </div>
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/54">
+            <button class="bn54">
+              <span class="bn54span">Button</span>
+            </button>
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a href="/buttons/53">
+            <button class="bn53">Button</button>
+          </a>
+        </div>
         <div className="btndiv dark">
           <a href="/buttons/52">
             <button className="w3-btn w3-white">
@@ -47,7 +64,7 @@ function Viewer() {
             Button
           </a>
         </div>
-        <div className="btndiv light">
+        <div className="btndiv dark">
           <div>
             <a href="/buttons/46" tabindex="0">
               <img
@@ -247,7 +264,9 @@ function Viewer() {
         </div>
         <div className="btndiv dark">
           <a href="/buttons/10">
-            <button className="w3-button w3-black w3-round-small">Button</button>
+            <button className="w3-button w3-black w3-round-small">
+              Button
+            </button>
           </a>
         </div>
         <div className="btndiv dark">

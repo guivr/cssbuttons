@@ -1,20 +1,30 @@
-import React from 'react';
-import './style.css';
-
+import React from "react";
+import "./style.css";
 
 function App() {
-    return (
-        <div id="viewer">
-            <div className="f416">
-                <h1 className="buttonh1">Button#31</h1>
-                <a className="bn31" href="/buttons/31"><span className="bn31span">Button</span></a>
-                <h2 className="h2source">Compatibility: <img alt="firefox" src="https://img.icons8.com/nolan/45/firefox.png"/><img alt="chrome" src="https://img.icons8.com/nolan/45/chrome.png"/><img alt="safari" src="https://img.icons8.com/nolan/45/safari.png"/><img alt="ie" src="https://img.icons8.com/nolan/45/internet-explorer.png"/></h2>
-                <h2 className="h2source">Source: <a href="https://codepen.io/amberweinberg/pen/dzJERg" className="avis" target="_blank" rel="noopener noreferrer">https://codepen.io/amberweinberg/pen/dzJERg</a></h2>
-                <div>
-                    <pre className="prettyprint">{`<a className="bn31" href="/"><span className="bn31span">Button</span></a>`}</pre>
-                </div>
-                <div>
-                    <pre className="prettyprint">{`.bn31 {
+  return (
+    <div id="viewer">
+      <div className="f416">
+        <h1 className="buttonh1">Button#31</h1>
+        <a className="bn31" href="/buttons/31">
+          <span className="bn31span">Button</span>
+        </a>
+        <h2 className="h2source">
+          Creator:{" "}
+          <a
+            href="https://codepen.io/amberweinberg/pen/dzJERg"
+            className="avis"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            https://codepen.io/amberweinberg/pen/dzJERg
+          </a>
+        </h2>
+        <div>
+          <pre className="prettyprint">{`<a className="bn31" href="/"><span className="bn31span">Button</span></a>`}</pre>
+        </div>
+        <div>
+          <pre className="prettyprint">{`.bn31 {
   background-image: linear-gradient(to right, #006175 0%, #00a950 100%);
   border-radius: 40px;
   box-sizing: border-box;
@@ -47,10 +57,10 @@ function App() {
 .bn31:hover .bn31span {
   background: transparent;
 }`}</pre>
-                </div>
-            </div>
         </div>
-    );
+      </div>
+    </div>
+  );
 }
 
 export default App;

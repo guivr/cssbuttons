@@ -5,14 +5,9 @@ function Panel() {
   return (
     <div id="panel">
       <div id="header">
-        <a href="/" className="obglitcha" onClick="https://google.com">
-          <h1 className="cbglitch">
-            <span aria-hidden="true">cssbuttons</span>
-            cssbuttons
-            <span aria-hidden="true">cssbuttons</span>
-          </h1>
+        <a href="/" className="text-lg">
+          cssbuttons.app
         </a>
-        <div id="expandButton"></div>
       </div>
       <div id="panelScrim">
         <div id="contentWrapper">
@@ -20,7 +15,12 @@ function Panel() {
             <h2 className="h2bg">Community</h2>
             <ul>
               <li>
-                <a className="bglink" href="https://github.com/r1/cssbuttons" target="_blank" rel="noopener noreferrer">
+                <a
+                  className="bglink"
+                  href="https://github.com/r1/cssbuttons"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   GitHub
                 </a>
               </li>
@@ -28,7 +28,8 @@ function Panel() {
             <h2 className="h2bg">Code</h2>
             <ul>
               <li>
-                <a className="bglink"
+                <a
+                  className="bglink"
                   href="https://github.com/r1/cssbuttons"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -37,7 +38,8 @@ function Panel() {
                 </a>
               </li>
               <li>
-                <a className="bglink"
+                <a
+                  className="bglink"
                   href="https://github.com/r1/cssbuttons/archive/master.zip"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -49,7 +51,8 @@ function Panel() {
             <h2 className="h2bg">Contribute</h2>
             <ul>
               <li>
-                <a className="bglink"
+                <a
+                  className="bglink"
                   href="https://github.com/r1/cssbuttons/blob/master/CONTRIBUTING.md"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -58,7 +61,8 @@ function Panel() {
                 </a>
               </li>
               <li>
-                <a className="bglink"
+                <a
+                  className="bglink"
                   href="https://github.com/r1/cssbuttons/blob/master/CONTRIBUTING.md"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -70,7 +74,8 @@ function Panel() {
             <h2 className="h2bg">New?</h2>
             <ul>
               <li>
-                <a className="bglink"
+                <a
+                  className="bglink"
                   href="https://www.youtube.com/watch?v=mU6anWqZJcc"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -79,7 +84,8 @@ function Panel() {
                 </a>
               </li>
               <li>
-                <a className="bglink"
+                <a
+                  className="bglink"
                   href="https://htmlcheatsheet.com/css/"
                   target="_blank"
                   rel="noopener noreferrer"

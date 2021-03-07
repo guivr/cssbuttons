@@ -11,7 +11,7 @@
   --font-size: 16px;
   --line-height: 26px;
   --viewer-width: 300px;
-  --border-style: 2.9px solid #776e62;
+  --border-style: 2px solid #353535;
   --header-height: 48px;
   --icon-size: 20px;
 }
@@ -137,11 +137,11 @@ button {
   align-items: center;
   z-index: 0;
   height: 179px;
-  border: 1px solid #776e62;
+  border: 1px solid #313131;
 }
 
 .dark {
-  background-color: #0e0e10;
+  background-color: #121212;
 }
 
 .light {
@@ -819,7 +819,7 @@ a.bn11:hover {
   padding: 0.6em 2.3em;
   cursor: pointer;
   font-size: 1em;
-  color: #000000;
+  color: #ffffff;
   background-image: linear-gradient(45deg, transparent 50%, #000000 50%);
   background-position: 25%;
   background-size: 400%;
@@ -1127,7 +1127,7 @@ a.bn11:hover {
   background-size: 300% 300%;
   -webkit-text-fill-color: transparent;
 }
- 
+
 .bn49 {
   border: 0;
   text-align: center;
@@ -1142,6 +1142,120 @@ a.bn11:hover {
   font-weight: 600;
   text-decoration: none;
   transition: box-shadow 200ms ease-out;
+}
+
+.bn53 {
+  background-color: #36a2eb;
+  padding: 7px;
+  width: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  animation: bn53bounce 4s infinite;
+  cursor: pointer;
+}
+
+@keyframes bn53bounce {
+  5%,
+  50% {
+    transform: scale(1);
+  }
+
+  10% {
+    transform: scale(0.9);
+  }
+
+  15% {
+    transform: scale(1.15);
+  }
+
+  20% {
+    transform: scale(1.15) rotate(-5deg);
+  }
+
+  25% {
+    transform: scale(1.15) rotate(5deg);
+  }
+
+  30% {
+    transform: scale(1.15) rotate(-3deg);
+  }
+
+  35% {
+    transform: scale(1.15) rotate(2deg);
+  }
+
+  40% {
+    transform: scale(1.15) rotate(0);
+  }
+}
+
+.bn54 {
+  position: relative;
+  outline: none;
+  text-decoration: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  height: 45px;
+  width: 130px;
+  opacity: 1;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.bn54 .bn54span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #000000;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+}
+
+.bn54:hover {
+  animation: bn54rotate 0.7s ease-in-out both;
+}
+
+.bn54:hover .bn54span {
+  animation: bn54storm 0.7s ease-in-out both;
+  animation-delay: 0.06s;
+}
+
+@keyframes bn54rotate {
+  0% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+  25% {
+    transform: rotate(3deg) translate3d(0, 0, 0);
+  }
+  50% {
+    transform: rotate(-3deg) translate3d(0, 0, 0);
+  }
+  75% {
+    transform: rotate(1deg) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+}
+
+@keyframes bn54storm {
+  0% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+  25% {
+    transform: translate3d(4px, 0, 0) translateZ(0);
+  }
+  50% {
+    transform: translate3d(-3px, 0, 0) translateZ(0);
+  }
+  75% {
+    transform: translate3d(2px, 0, 0) translateZ(0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
 }
 
 /** Button End **/
@@ -1219,4 +1333,24 @@ a.bn11:hover {
 .firefoxbn {
   width: 45px;
   height: 40px;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(255, 255, 255) rgb(18,18,18);
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(18,18,18);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(94, 94, 94);
+  border-radius: 20px;
+  border: 4px solid rgb(18,18,18);
 }
