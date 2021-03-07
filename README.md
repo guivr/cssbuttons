@@ -1,6 +1,5 @@
-<p align="center"><a href="https://cssbuttons.vercel.app/" target="_blank" rel="noopener noreferrer"><img width="300" src="./img/buttons.png" alt="cssbuttons"></a></p>
+<p align="center"><a href="https://cssbuttons.vercel.app/" target="_blank" rel="noopener noreferrer"><img width="300" src="./img/logo.png" alt="cssbuttons"></a></p>
 <h2 align="center">🚀 cssbuttons open-source codebase</h2> 
-
 <h2 align="center">
 cssbuttons is an MIT-licensed open source project full of pure CSS & HTML buttons for developers built-in React. 
 </h2> 
