@@ -29,7 +29,6 @@ function App() {
   padding: 0.8em 2.5em;
   outline: none;
   color: white;
-  font-weight: 900;
   font-style: 1.2em;
   position: relative;
   z-index: 1;
