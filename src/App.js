@@ -56,6 +56,11 @@ import buttons52 from "./buttons/52";
 import buttons53 from "./buttons/53";
 import buttons54 from "./buttons/54";
 import buttons55 from "./buttons/55";
+import buttons56 from "./buttons/56";
+import buttons57 from "./buttons/57";
+import buttons58 from "./buttons/58";
+import buttons59 from "./buttons/59";
+import buttons60 from "./buttons/60";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Panel from "./components/Panel/Panel.js";
 import Viewer from "./components/Viewer/Viewer.js";
@@ -127,6 +132,11 @@ function App() {
           <Route path="/buttons/53" exact component={buttons53} />
           <Route path="/buttons/54" exact component={buttons54} />
           <Route path="/buttons/55" exact component={buttons55} />
+          <Route path="/buttons/56" exact component={buttons56} />
+          <Route path="/buttons/57" exact component={buttons57} />
+          <Route path="/buttons/58" exact component={buttons58} />
+          <Route path="/buttons/59" exact component={buttons59} />
+          <Route path="/buttons/55" exact component={buttons60} />
         </Switch>
       </div>
     </Router>
