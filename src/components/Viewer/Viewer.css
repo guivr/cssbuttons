@@ -666,6 +666,7 @@ a.bn11:hover {
   outline: none;
   color: white;
   font-style: 1.2em;
+  font-size: large;
   position: relative;
   z-index: 1;
   cursor: pointer;
