@@ -62,16 +62,24 @@ import buttons58 from "./buttons/58";
 import buttons59 from "./buttons/59";
 import buttons60 from "./buttons/60";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import Panel from "./components/Panel/Panel.js";
 import Viewer from "./components/Viewer/Viewer.js";
-import ReactGA from 'react-ga';
-require('dotenv').config();
+import ReactGA from "react-ga";
+require("dotenv").config();
 ReactGA.initialize(process.env.REACT_APP_GA_ENV);
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   return (
     <Router>
+      <Helmet>
+        <title>CSSBUTTONS</title>
+        <meta
+          name="description"
+          content="CSSBUTTONS: HTML & CSS Button Collection"
+        />
+      </Helmet>
       <div>
         <Switch>
           <Route path="/" exact component={Viewer} />
