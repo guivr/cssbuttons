@@ -12,12 +12,12 @@ function App() {
         <h2 className="h2source">
           Creator:{" "}
           <a
-            href="https://codepen.io/SebastianOpperman/pen/mgoXQm"
+            href="https://codepen.io/SebastianOpperman/"
             className="avis"
             target="_blank"
             rel="noopener noreferrer"
           >
-            https://codepen.io/SebastianOpperman/pen/mgoXQm
+            codepen.io/SebastianOpperman/
           </a>
         </h2>
         <div>
