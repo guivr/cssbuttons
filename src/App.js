@@ -74,10 +74,14 @@ function App() {
   return (
     <Router>
       <Helmet>
-        <title>CSSBUTTONS</title>
+        <title>cssbuttons</title>
+        <meta
+          name="keywords"
+          content="css buttons, cssbuttons, css button"
+        />
         <meta
           name="description"
-          content="CSSBUTTONS: HTML & CSS Button Collection"
+          content="cssbuttons is an MIT-licensed open source project full of pure CSS & HTML buttons for developers built-in React"
         />
       </Helmet>
       <div>
