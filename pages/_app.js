@@ -6,6 +6,7 @@ import "@/components/Viewer/Viewer.css";
 import "@/components/Panel/Panel.css";
 import "tailwindcss/tailwind.css";
 import SEO from "../next-seo.config";
+import { NextSeo } from 'next-seo';
 
 function MyApp({ Component, pageProps }) {
   return (
