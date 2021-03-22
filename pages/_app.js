@@ -17,6 +17,10 @@ function MyApp({ Component, pageProps }) {
           description="cssbuttons is an MIT-licensed open source project full of pure CSS & HTML buttons for developers built-in React"
         />
         <title>cssbuttons.app</title>
+        <meta
+          name="keywords"
+          content="css buttons, cssbuttons, css button"
+        />
         <link rel="icon" type="image/png" href="/logo.png" />
         <link
           rel="icon"
