@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>cssbuttons.app</title>
+        <title>cssbuttons - Over 50 HTML & CSS Buttons</title>
         <link rel="icon" type="image/png" href="/logo.png" />
         <link
           rel="icon"
