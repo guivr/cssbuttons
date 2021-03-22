@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-color: #121212;
+  --secondary-background-color: #363434;
+  --color-whie: #ffffff;
+  --text-color: rgb(255, 255, 255);
+  --color-black: #030303;
+  --secondary-text-color: #fffdfd;
+  --font-size: 16px;
+  --line-height: 26px;
+  --viewer-width: 300px;
+  --border-style: 2px solid #353535;
+  --header-height: 48px;
+  --icon-size: 20px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-size: calc(var(--font-size) - 1px);
+  line-height: calc(var(--line-height) - 0px);
+}
+
+body {
+  margin: 0px;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scrollbar-color: rgb(255, 255, 255) rgb(18, 18, 18);
+}
+
+a {
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+h3 {
+  margin: 0;
+  font-weight: 500;
+  font-size: calc(var(--font-size) - 1px);
+  line-height: var(--line-height);
+  color: var(--secondary-text-color);
+}
+
+h2 {
+  padding: 0;
+  margin: 16px 0;
+  font-size: calc(var(--font-size) + 4px);
+  line-height: var(--line-height);
+  font-weight: 700;
+  color: var(--color-white);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+.mono {
+  font-family: "Roboto Mono", monospace;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(18, 18, 18);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(94, 94, 94);
+}
