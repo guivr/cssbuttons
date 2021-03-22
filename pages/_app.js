@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <LayoutGA>
       <Head>
-        <title>cssbuttons - Over 50 HTML & CSS Buttons.</title>
+        <title>cssbuttons - Over 50 HTML & CSS Buttons</title>
         <meta
           name="description"
           content="cssbuttons is an MIT-licensed open source project full of pure CSS & HTML buttons for developers built-in React"
