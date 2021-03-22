@@ -5,12 +5,16 @@ import LayoutGA from "@/components/LayoutGA";
 import "@/components/Viewer/Viewer.css";
 import "@/components/Panel/Panel.css";
 import "tailwindcss/tailwind.css";
-import SEO from '../next-seo.config';
+import SEO from "../next-seo.config";
 
 function MyApp({ Component, pageProps }) {
   return (
     <LayoutGA>
       <Head>
+        <NextSeo
+          title="cssbuttons"
+          description="cssbuttons is an MIT-licensed open source project full of pure CSS & HTML buttons for developers built-in React"
+        />
         <title>cssbuttons.app</title>
         <link rel="icon" type="image/png" href="/logo.png" />
         <link
