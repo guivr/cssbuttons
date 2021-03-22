@@ -5,7 +5,6 @@ import LayoutGA from "@/components/LayoutGA";
 import "@/components/Viewer/Viewer.css";
 import "@/components/Panel/Panel.css";
 import "tailwindcss/tailwind.css";
-import SEO from "../next-seo.config";
 import { NextSeo } from 'next-seo';
 
 function MyApp({ Component, pageProps }) {
@@ -44,7 +43,6 @@ function MyApp({ Component, pageProps }) {
           name="google-site-verification"
           content="CetNYcGBpQOungO3wto30N4VIto6PNZjGjkk36NEmtY"
         />
-        <DefaultSeo {...SEO} />
       </Head>
       <Component {...pageProps} />
     </LayoutGA>
