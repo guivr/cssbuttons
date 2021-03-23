@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    GA_ENV: process.env.REACT_APP_GA_ENV,
+    REACT_APP_GA_ENV: process.env.REACT_APP_GA_ENV,
   },
 
   webpack: (config, { isServer }) => {
