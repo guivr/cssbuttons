@@ -2,6 +2,38 @@ export default function Viewer() {
   return (
     <div id="viewer">
       <div id="viewerbuttons">
+      <div className="btndiv dark">
+          <a
+            className="inline-flex items-center px-5 py-2 mt-2 font-semibold text-lg rounded-sm tracking-tighter bg-white text-black"
+            href="/buttons/60"
+          >
+            Button
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a
+            className="inline-flex items-center px-6 py-2 mt-2 font-semibold text-lg rounded-sm tracking-tighter bg-green-700 text-white"
+            href="/buttons/59"
+          >
+            Button
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a
+            className="inline-flex items-center px-4 py-2 mt-2 font-semibold text-lg tracking-tighter bg-blue-600 text-white"
+            href="/buttons/58"
+          >
+            Button
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a
+            className="inline-flex items-center px-4 py-2 mt-2 font-semibold text-lg tracking-tighter bg-white text-black rounded-xl"
+            href="/buttons/57"
+          >
+            Button
+          </a>
+        </div>
         <div className="btndiv dark">
           <a
             href="/buttons/56"
@@ -37,7 +69,7 @@ export default function Viewer() {
         </div>
         <div className="btndiv dark">
           <a
-            className="inline-flex items-center px-4 py-2 mt-2 font-semibold tracking-tighter text-white transition duration-500 ease-in-out transform bg-transparent border rounded-lg text-md md:mt-0 hover:text-black hover:bg-white focus:shadow-outline"
+            className="inline-flex items-center px-4 py-2 mt-2 font-semibold tracking-tighter text-white transition duration-500 ease-in-out transform bg-transparent border rounded-lg text-md hover:text-black hover:bg-white focus:shadow-outline"
             href="/buttons/55"
           >
             <div className="flex text-lg tracking-tighter">

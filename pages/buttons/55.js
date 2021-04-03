@@ -13,7 +13,7 @@ function Button() {
             href="/buttons/55"
           >
             <div className="flex text-lg tracking-tighter">
-              <span className="justify-center">Buttons</span>
+              <span className="justify-center">Button</span>
             </div>
           </a>
           <h2 className="h2source">
@@ -36,7 +36,7 @@ className="inline-flex items-center px-4 py-2 mt-2 font-semibold tracking-tighte
 href="/buttons/55"
 >
   <div className="flex text-lg tracking-tighter">
-    <span className="justify-center">Buttons</span>
+    <span className="justify-center">Button</span>
   </div>
 </a>`}</pre>
           </div>
