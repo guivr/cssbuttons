@@ -2,14 +2,6 @@ export default function Viewer() {
   return (
     <div id="viewer">
       <div id="viewerbuttons">
-      <div className="btndiv dark">
-          <a
-            className="inline-flex items-center px-5 py-2 mt-2 font-semibold text-lg rounded-sm tracking-tighter bg-white text-black"
-            href="/buttons/60"
-          >
-            Button
-          </a>
-        </div>
         <div className="btndiv dark">
           <a
             className="inline-flex items-center px-6 py-2 mt-2 font-semibold text-lg rounded-sm tracking-tighter bg-green-700 text-white"
