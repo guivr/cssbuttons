@@ -98,7 +98,7 @@ export default function Viewer() {
         <div className="btndiv dark">
           <a href="/buttons/50">
             <p>
-              <button className="w3-btn w3-deep-purple">Deep Purple</button>
+              <button className="w3-btn w3-deep-purple">Button</button>
             </p>
           </a>
         </div>

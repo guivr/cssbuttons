@@ -9,7 +9,7 @@ function Button() {
         <div className="f416">
           <h1 className="buttonh1">Button#50</h1>
           <p>
-            <button className="w3-btn w3-deep-purple">Deep Purple</button>
+            <button className="w3-btn w3-deep-purple">Button</button>
           </p>
           <h2 className="h2source">
             Creator:{" "}
@@ -26,7 +26,7 @@ function Button() {
             <pre className="prettyprint">{`<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">`}</pre>
           </div>
           <div>
-            <pre className="prettyprint">{`<p><button className="w3-btn w3-deep-purple">Deep Purple</button></p>`}</pre>
+            <pre className="prettyprint">{`<p><button className="w3-btn w3-deep-purple">Button</button></p>`}</pre>
           </div>
         </div>
       </div>
