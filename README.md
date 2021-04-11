@@ -3,7 +3,9 @@
 <h2 align="center">
 cssbuttons is an MIT-licensed open source project full of pure CSS & HTML buttons for developers built-in React. 
 </h2> 
-
+<div align="center">
+Tech Stack: Next.js / React, CSS, Tailwind CSS
+</div>
 <p align="center">
   <a href="https://github.com/r1/cssbuttons/issues">Report bug</a>
   ·
