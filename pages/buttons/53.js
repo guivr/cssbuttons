@@ -29,7 +29,7 @@ function Button() {
           </div>
           <div>
             <pre className="prettyprint">{`.bn53 {
-  background-color: #36a2eb;
+  background-color: #b81515;
   padding: 7px;
   width: 100px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -44,31 +44,31 @@ function Button() {
   }
 
   10% {
-    transform: scale(0.9);
+    transform: scale(1);
   }
 
   15% {
-    transform: scale(1.15);
+    transform: scale(1);
   }
 
   20% {
-    transform: scale(1.15) rotate(-5deg);
+    transform: scale(1) rotate(-5deg);
   }
 
   25% {
-    transform: scale(1.15) rotate(5deg);
+    transform: scale(1) rotate(5deg);
   }
 
   30% {
-    transform: scale(1.15) rotate(-3deg);
+    transform: scale(1) rotate(-3deg);
   }
 
   35% {
-    transform: scale(1.15) rotate(2deg);
+    transform: scale(1) rotate(2deg);
   }
 
   40% {
-    transform: scale(1.15) rotate(0);
+    transform: scale(1) rotate(0);
   }
 }`}</pre>
           </div>
