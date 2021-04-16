@@ -8,7 +8,7 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          <script type="text/javascript" src="/nav.js"/>
+          <script type="text/javascript" src="/nav.js" />
         </body>
       </Html>
     );

@@ -36,7 +36,7 @@ html {
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  Ubuntu, "Helvetica Neue", sans-serif;
+    Ubuntu, "Helvetica Neue", sans-serif;
   margin: 0px;
   color: var(--text-color);
 }
@@ -44,7 +44,7 @@ body {
 a {
   text-decoration: none;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  Ubuntu, "Helvetica Neue", sans-serif;
+    Ubuntu, "Helvetica Neue", sans-serif;
 }
 
 h1 {
@@ -52,11 +52,11 @@ h1 {
   line-height: 24px;
   font-weight: 500;
 }
- 
+
 .h2bg {
   padding: 0;
   margin: 16px 0;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-size: calc(var(--font-size) + 7px);
   line-height: var(--line-height);
   color: var(--color-white);
@@ -65,7 +65,7 @@ h1 {
 .bglink {
   padding: 0;
   margin: 16px 0;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-size: calc(var(--font-size));
   line-height: var(--line-height);
   color: var(--color-white);
@@ -78,7 +78,7 @@ h3 {
   line-height: var(--line-height);
   color: var(--secondary-text-color);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  Ubuntu, "Helvetica Neue", sans-serif;
+    Ubuntu, "Helvetica Neue", sans-serif;
 }
 
 h1 a {
@@ -95,7 +95,7 @@ h1 a {
 
 #header a {
   padding-left: var(--panel-padding);
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   flex: 1;
   display: flex;
   align-items: center;
@@ -314,21 +314,18 @@ body.home #panel #content h2 {
   #viewerbuttons {
     grid-template-columns: repeat(5, 1fr);
   }
-
 }
 
 @media all and (max-width: 1100px) {
   #viewerbuttons {
     grid-template-columns: repeat(2, 1fr);
   }
-
 }
 
 @media all and (max-width: 900px) {
   #viewerbuttons {
     grid-template-columns: repeat(2, 1fr);
   }
-
 }
 
 @media all and (max-width: 700px) {
@@ -343,84 +340,83 @@ body.home #panel #content h2 {
   }
 }
 
-@media all and ( max-width: 640px ) {
+@media all and (max-width: 640px) {
+  :root {
+    --header-height: 56px;
+    --icon-size: 24px;
+  }
 
-	:root {
-		--header-height: 56px;
-		--icon-size: 24px;
-	}
+  #panel #expandButton {
+    display: block;
+  }
 
-	#panel #expandButton {
-		display: block;
-	}
-  
-	#panel {
-		position: absolute;
-		left: 0;
-		top: 0;
-		width: 100%;
-		right: 0;
-		z-index: 1000;
-		overflow-x: hidden;
-		transition: 0s 0s height;
-		border: none;
-		height: var(--header-height);
-		transition: 0s 0.2s height;
-	}
+  #panel {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    right: 0;
+    z-index: 1000;
+    overflow-x: hidden;
+    transition: 0s 0s height;
+    border: none;
+    height: var(--header-height);
+    transition: 0s 0.2s height;
+  }
 
-	#panel.open {
+  #panel.open {
     z-index: 3;
     width: 100%;
-		height: 100%;
-		transition: 0s 0s height;
-	}
+    height: 100%;
+    transition: 0s 0s height;
+  }
 
-	#panelScrim {
-		pointer-events: none;
-		background-color: rgba(0,0,0,0);
-		position: absolute;
-		left: 0;
-		right: 0;
-		top: 0;
-		bottom: 0;
-		z-index: 1000;
-		pointer-events: none;
-		transition: .2s background-color;
-	}
+  #panelScrim {
+    pointer-events: none;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1000;
+    pointer-events: none;
+    transition: 0.2s background-color;
+  }
 
-	#panel.open #panelScrim {
-		pointer-events: auto;
-		background-color: rgba(0,0,0,0.4);
-	}
+  #panel.open #panelScrim {
+    pointer-events: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
 
-	#contentWrapper {
-		position: absolute;
-		right: 0;
-		top: 0;
-		bottom: 0;
-		background: var(--background-color);
-		box-shadow: 0 0 8px rgba(0,0,0,.1);
-		width: calc(100vw - 60px);
-		max-width: 360px;
-		z-index: 10000;
-		transition: .25s transform;
-		overflow-x: hidden;
-		margin-right: -380px;
-		line-height: 2rem;
-	}
+  #contentWrapper {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: var(--background-color);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    width: calc(100vw - 60px);
+    max-width: 360px;
+    z-index: 10000;
+    transition: 0.25s transform;
+    overflow-x: hidden;
+    margin-right: -380px;
+    line-height: 2rem;
+  }
 
-	#panel.open #contentWrapper {
-		transform: translate3d(-380px, 0 ,0);
-	}
+  #panel.open #contentWrapper {
+    transform: translate3d(-380px, 0, 0);
+  }
 
-	#viewer,
-	iframe {
-		left: 0;
-		top: var(--header-height);
-		width: 100%;
-		height: calc(100% - var(--header-height));
-	}
-	#viewer {
-		padding-left: 0;
-	}
+  #viewer,
+  iframe {
+    left: 0;
+    top: var(--header-height);
+    width: 100%;
+    height: calc(100% - var(--header-height));
+  }
+  #viewer {
+    padding-left: 0;
+  }
 }
