@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "dotenv": "^8.2.0",
-    "globby": "^11.0.2",
+    "globby": "^11.0.3",
     "next": "10.0.9",
     "prettier": "^2.2.1",
     "react": "17.0.1",
