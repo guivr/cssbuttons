@@ -38,7 +38,7 @@ export default function Panel() {
               <li>
                 <a
                   className="bglink"
-                  href="https://github.com/r1/cssbuttons/releases/tag/v2.0"
+                  href="https://github.com/r1/cssbuttons/releases/tag/v2.0.0"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
