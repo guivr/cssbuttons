@@ -4,7 +4,7 @@ export default function Viewer() {
       <div id="viewerbuttons">
         <div className="btndiv dark">
           <a
-            className="inline-flex items-center px-4 py-2 mt-2 font-semibold text-lg tracking-tighter bg-blue-600 text-white"
+            className="inline-flex items-center px-4 py-2 mt-2 text-lg font-semibold tracking-tighter text-white bg-blue-600"
             href="/buttons/58"
           >
             Button
@@ -12,7 +12,7 @@ export default function Viewer() {
         </div>
         <div className="btndiv dark">
           <a
-            className="inline-flex items-center px-4 py-2 mt-2 font-semibold text-lg tracking-tighter bg-white text-black rounded-xl"
+            className="inline-flex items-center px-4 py-2 mt-2 text-lg font-semibold tracking-tighter text-black bg-white rounded-xl"
             href="/buttons/57"
           >
             Button
@@ -111,7 +111,7 @@ export default function Viewer() {
         </div>
         <div className="btndiv dark">
           <div>
-            <a href="/buttons/46" tabindex="0">
+            <a href="/buttons/46" tabIndex="0">
               <img
                 className="bn46"
                 src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred.png"
@@ -122,7 +122,7 @@ export default function Viewer() {
         </div>
         <div className="btndiv dark">
           <div>
-            <a href="/buttons/45" tabindex="0">
+            <a href="/buttons/45" tabIndex="0">
               <img
                 className="bn45"
                 src="https://cdn.worldvectorlogo.com/logos/google-2.svg"

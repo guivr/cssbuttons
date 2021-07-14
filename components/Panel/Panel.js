@@ -32,7 +32,7 @@ export default function Panel() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  GitHub
+                  GitHub (🌟 Give it a star!)
                 </a>
               </li>
               <li>

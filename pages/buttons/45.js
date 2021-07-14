@@ -9,7 +9,7 @@ function Button() {
         <div className="f416">
           <h1 className="buttonh1">Button#45</h1>
           <div>
-            <a href="/buttons/45" tabindex="0">
+            <a href="/buttons/45" tabIndex="0">
               <img
                 className="bn45"
                 src="https://cdn.worldvectorlogo.com/logos/google-2.svg"
@@ -29,7 +29,7 @@ function Button() {
             </a>
           </h2>
           <div>
-            <pre className="prettyprint">{`<div><a href="/" tabindex="0"><img className="bn45" src="https://cdn.worldvectorlogo.com/logos/google-2.svg"alt="bn45"/></a></div>`}</pre>
+            <pre className="prettyprint">{`<div><a href="/" tabIndex="0"><img className="bn45" src="https://cdn.worldvectorlogo.com/logos/google-2.svg"alt="bn45"/></a></div>`}</pre>
           </div>
           <div>
             <pre className="prettyprint">{`.bn45 {
