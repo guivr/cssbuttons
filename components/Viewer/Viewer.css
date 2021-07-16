@@ -3,7 +3,7 @@
 :root {
   --secondary-background-color: #363434;
 
-  --color-whie: #ffffff;
+  --color-white: #ffffff;
   --text-color: rgb(255, 255, 255);
   --color-black: #030303;
   --secondary-text-color: #fffdfd;
@@ -11,7 +11,6 @@
   --font-size: 16px;
   --line-height: 26px;
   --viewer-width: 300px;
-  --border-style: 2px solid #353535;
   --header-height: 48px;
   --icon-size: 20px;
 }
@@ -121,11 +120,11 @@ button {
   align-items: center;
   z-index: 0;
   height: 179px;
-  border: 1px solid #313131;
+  border: 1px solid #232323;
 }
 
 .dark {
-  background-color: #121212;
+  background-color: #101010;
 }
 
 .light {

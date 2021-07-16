@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background-color: #121212;
+  --background-color: #101010;
   --secondary-background-color: #363434;
   --color-whie: #ffffff;
   --text-color: rgb(255, 255, 255);
@@ -12,7 +12,7 @@
   --font-size: 16px;
   --line-height: 26px;
   --viewer-width: 300px;
-  --border-style: 2px solid #353535;
+  --border-style: 2px solid #232323;
   --header-height: 48px;
   --icon-size: 20px;
 }
