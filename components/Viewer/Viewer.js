@@ -115,7 +115,7 @@ export default function Viewer() {
               <img
                 className="bn46"
                 src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred.png"
-                alt="bn45"
+                alt="bn46"
               />
             </a>
           </div>
@@ -125,7 +125,7 @@ export default function Viewer() {
             <a href="/buttons/45" tabIndex="0">
               <img
                 className="bn45"
-                src="https://cdn.worldvectorlogo.com/logos/google-2.svg"
+                src="https://www.google.com/intl/en/cast/about/static/images/download-badges/android-download.png"
                 alt="bn45"
               />
             </a>

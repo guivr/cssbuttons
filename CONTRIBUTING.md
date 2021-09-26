@@ -9,7 +9,7 @@ To help us improve our documentation. Typo corrections, error fixes, better expl
 
 ### Adding a button
 
-Make a Pull Request and edit this [file](https://github.com/r1/cssbuttons/blob/master/buttons-to-add.md) and put your HTML and CSS in one of the sections for it to be later added.
+Make an issue and put the HTML/CSS in the issue.
 
 ### Adding a new feature
 

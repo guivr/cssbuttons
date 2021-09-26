@@ -12,7 +12,7 @@ function Button() {
             <a href="/buttons/45" tabIndex="0">
               <img
                 className="bn45"
-                src="https://cdn.worldvectorlogo.com/logos/google-2.svg"
+                src="https://www.google.com/intl/en/cast/about/static/images/download-badges/android-download.png"
                 alt="bn45"
               />
             </a>
@@ -29,15 +29,15 @@ function Button() {
             </a>
           </h2>
           <div>
-            <pre className="prettyprint">{`<div><a href="/" tabIndex="0"><img className="bn45" src="https://cdn.worldvectorlogo.com/logos/google-2.svg"alt="bn45"/></a></div>`}</pre>
+            <pre className="prettyprint">{`<div><a href="/" tabIndex="0"><img className="bn45" src="https://www.google.com/intl/en/cast/about/static/images/download-badges/android-download.png"alt="bn45"/></a></div>`}</pre>
           </div>
           <div>
             <pre className="prettyprint">{`.bn45 {
-  width: 160px;
-  height: 60px;
+  width: 170px;
+  height: 50px;
 }`}</pre>
             <pre className="prettyprint">
-              {"https://cdn.worldvectorlogo.com/logos/google-2.svg"}
+              {"https://www.google.com/intl/en/cast/about/static/images/download-badges/android-download.png"}
             </pre>
           </div>
         </div>
