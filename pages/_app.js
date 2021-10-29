@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
           name="description"
           content="cssbuttons is an open source project full of CSS buttons for developers."
         ></meta>
-        <meta name="keywords" content="css buttons, cssbuttons, css button" />
+        <meta name="keywords" content="css buttons, cssbuttons, css button, button css" />
         <link rel="icon" type="image/png" href="/logo.png" />
         <link
           rel="icon"

@@ -2,6 +2,16 @@ export default function Viewer() {
   return (
     <div id="viewer">
       <div id="viewerbuttons">
+      <div className="btndiv dark">
+          <a className="bn60" href="/buttons/60">
+            Button
+          </a>
+        </div>
+        <div className="btndiv dark">
+          <a className="bn59" href="/buttons/59">
+            Button
+          </a>
+        </div>
         <div className="btndiv dark">
           <a
             className="inline-flex items-center px-4 py-2 mt-2 text-lg font-semibold tracking-tighter text-white bg-blue-600"

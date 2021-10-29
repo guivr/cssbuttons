@@ -1,2 +1,2 @@
-User-agent: *
-Sitemap: https://cssbuttons.app/sitemap.xml
+user-agent: *
+sitemap: https://cssbuttons.app/sitemap.xml

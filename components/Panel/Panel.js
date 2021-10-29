@@ -10,19 +10,10 @@ export default function Panel() {
       <div id="panelScrim">
         <div id="contentWrapper">
           <div id="content">
-            <h2 className="h2bg">Community</h2>
-            <ul>
-              <li>
-                <a
-                  className="bglink"
-                  href="https://github.com/r1/cssbuttons"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  GitHub
-                </a>
-              </li>
-            </ul>
+            <h3 className="h3bg">How to use</h3>
+            <h4 className="h4bg">
+              Click on your desired button and copy the HTML & CSS.
+            </h4>
             <h2 className="h2bg">Code</h2>
             <ul>
               <li>
@@ -32,7 +23,7 @@ export default function Panel() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  GitHub (🌟 Give it a star!)
+                  GitHub
                 </a>
               </li>
               <li>

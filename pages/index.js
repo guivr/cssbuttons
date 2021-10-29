@@ -6,12 +6,6 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <link rel="icon" type="image/png" href="/logo.png" />
-        <link
-          rel="icon"
-          type="image/png"
-          href="https://cssbuttons.app/logo.png"
-        />
         <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js" />
         <link
           href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
