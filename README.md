@@ -10,22 +10,6 @@
 
 Found a bug? Report it [here](https://github.com/r1/cssbuttons/issues).
 
-# Request Button
-
-Want to contribute and add a new button/buttons?
-
-Read [this](https://github.com/r1/cssbuttons/blob/master/CONTRIBUTING.md)
-
-# Request Feature
-
-Want to suggest a new feature?
-
-Suggest it [here](https://github.com/r1/cssbuttons/blob/master/CONTRIBUTING.md).
-
-# Contributing
-
-We welcome any and all contributions to the website.
-
 # Available Scripts
 
 In the project directory, you can run:
