@@ -29,7 +29,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "scripts/generate-sitemap.js"  ],
+, "scripts/generate-sitemap.js", "utils/analytics.js"  ],
   "exclude": [
     "node_modules"
   ]
