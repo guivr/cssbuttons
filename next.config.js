@@ -1,4 +1,5 @@
 module.exports = {
+  reactStrictMode: true,
   env: {
     REACT_APP_GA_ENV: process.env.REACT_APP_GA_ENV,
   },
