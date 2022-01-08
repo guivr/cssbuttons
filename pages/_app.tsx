@@ -1,10 +1,11 @@
 import "../styles/globals.css";
+import LayoutGA from "@/components/LayoutGA";
 import Head from "next/head";
 import Sidebar from "../components/Sidebar/Sidebar";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
+    <LayoutGA>
       <Head>
         <title>cssbuttons.app | Over 60+ Free CSS Buttons To Use</title>
         <meta
@@ -20,7 +21,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <Sidebar />
       <Component {...pageProps} />
-    </>
+    </LayoutGA>
   );
 }
 
