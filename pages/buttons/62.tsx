@@ -5,8 +5,8 @@ function Button() {
         <div className="px-4 py-8">
           <h2 className="text-5xl font-bold">Button#62</h2>
           <div className="py-5">
-            <a href="/buttons/62">
-              <button className="bn62">Button</button>
+            <a href="/buttons/62" className="bn62">
+              Button
             </a>
           </div>
           <h2 className="text-2xl font-semibold">
@@ -20,8 +20,8 @@ function Button() {
             </a>
           </h2>
           <div>
-            <pre className="code">{`<a href="/buttons/62">
-    <button className="bn62">Button</button>
+            <pre className="code">{`<a href="/buttons/62" class="bn62">
+  Button
 </a>`}</pre>
           </div>
           <div>
@@ -29,6 +29,9 @@ function Button() {
   color: #1cc49d;
   background-color: #1b2f31;
   border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 3em;
   width: 8em;
   font-size: large;

@@ -1505,6 +1505,9 @@ a.bn11:hover {
   color: #1cc49d;
   background-color: #1b2f31;
   border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 3em;
   width: 8em;
   font-size: large;

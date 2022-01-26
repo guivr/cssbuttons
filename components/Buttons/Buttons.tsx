@@ -5,15 +5,16 @@ export default function Viewer() {
     <div id="viewer">
       <div id="viewerbuttons">
         <div className="btndiv dark">
-          <a href="/buttons/62">
-            <button className="bn62">Button</button>
+          <a href="/buttons/62" className="bn62">
+            Button
           </a>
         </div>
         <div className="btndiv dark">
-          <a href="/buttons/61">
-            <button className="py-3 px-5 bg-indigo-500 text-white text-sm font-semibold rounded-md shadow-lg shadow-indigo-500/50 focus:outline-none">
-              Button
-            </button>
+          <a
+            href="/buttons/61"
+            className="py-3 px-5 bg-indigo-500 text-white text-sm font-semibold rounded-md shadow-lg shadow-indigo-500/50 focus:outline-none"
+          >
+            Button
           </a>
         </div>
         <div className="btndiv dark">
@@ -163,18 +164,18 @@ export default function Viewer() {
           </a>
         </div>
         <div className="btndiv dark">
-          <a href="/buttons/43">
-            <button className="btn41-43 btn-43">Button</button>
+          <a href="/buttons/43" className="btn41-43 btn-43">
+            Button
           </a>
         </div>
         <div className="btndiv dark">
-          <a href="/buttons/42">
-            <button className="btn41-43 btn-42">Button</button>
+          <a href="/buttons/42" className="btn41-43 btn-42">
+            Button
           </a>
         </div>
         <div className="btndiv dark">
-          <a href="/buttons/41">
-            <button className="btn41-43 btn-41">Button</button>
+          <a href="/buttons/41" className="btn41-43 btn-41">
+            Button
           </a>
         </div>
         <div className="btndiv dark">
