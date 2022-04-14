@@ -107,14 +107,6 @@ body {
   transition: 0s 0s height;
 }
 
-#contentWrapper {
-  flex: 1;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  transform: translate3d(0, 0, 0);
-}
-
 #panel #content {
   flex: 1;
   overflow-y: auto;
@@ -336,6 +328,24 @@ body {
 #displayflex {
   display: flex;
 }
+
+.cssscan {
+  padding: 10px;
+  border-radius: 12px;
+  text-align: center;
+  background-image: linear-gradient(180deg, #036567 0%, #095C64 6.9%, #185764 12.44%, #1B5664 18.76%, #1D5360 24.22%, #374D62 31.01%, #50455E 38.14%, #5E415C 48.14%, #763B5B 54.93%, #973158 62.63%, #AF2A54 69.99%, #D01344 80.62%, #EA1F54 100%);
+  bottom: 15px;
+  position: absolute;
+  margin-right: 15px;
+}
+
+.cssscan img {
+  vertical-align: middle;
+  width: 22px;
+  display: inline;
+  margin-right: 5px;
+}
+
 
 /** Button Start **/
 
