@@ -62,7 +62,7 @@ export default function Sidebar() {
             <a href="https://getcssscan.com/?ref=cssbuttonsapp">
               <div className="cssscan">
                 <img src="https://toastlog.com/img/logos/cssscan.svg" alt="CSS Scan logo" />
-                CSS Scan - Easily inspect or copy any website's CSS
+                CSS Scan - Easily inspect or copy any website&apos;s CSS
               </div>
             </a>
           </div>
