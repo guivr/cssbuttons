@@ -13,10 +13,6 @@ export default function Home() {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         />
-        <meta
-          name="google-site-verification"
-          content="CetNYcGBpQOungO3wto30N4VIto6PNZjGjkk36NEmtY"
-        />
       </Head>
       <Buttons />
     </>
