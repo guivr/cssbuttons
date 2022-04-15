@@ -58,6 +58,15 @@ export default function Sidebar() {
                   CSS Cheatsheet
                 </a>
               </li>
+              <li>
+                <a
+                  className="bglink"
+                  href="https://getcssscan.com/?ref=cssbuttonsapp"
+                  target="_blank"
+                >
+                  CSS Scan extension
+                </a>
+              </li>
             </ul>
             <a href="https://getcssscan.com/?ref=cssbuttonsapp">
               <div className="cssscan">
