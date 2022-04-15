@@ -4,7 +4,7 @@ function Button() {
     <>
       <div id="viewer">
         <div className="px-4 py-8">
-          <h2 className="text-5xl font-bold">Button#46</h2>
+          <h2 className="text-5xl font-bold">Button #46 - Download on the App Store button</h2>
           <div className="py-5">
             <a href="/buttons/46">
               <img
@@ -17,11 +17,10 @@ function Button() {
           <h2 className="text-2xl font-semibold">
             Creator:{" "}
             <a
-              href="https://github.com/r1"
+              href="https://getcssscan.com/?ref=cssbuttonsapp"
               target="_blank"
-              rel="noopener noreferrer"
             >
-              github.com/r1
+              CSS Scan
             </a>
           </h2>
           <div>

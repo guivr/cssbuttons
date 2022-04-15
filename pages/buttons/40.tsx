@@ -14,11 +14,10 @@ function Button() {
           <h2 className="text-2xl font-semibold">
             Creator:{" "}
             <a
-              href="https://github.com/r1"
+              href="https://getcssscan.com/?ref=cssbuttonsapp"
               target="_blank"
-              rel="noopener noreferrer"
             >
-              github.com/r1
+              CSS Scan
             </a>
           </h2>
           <div>
