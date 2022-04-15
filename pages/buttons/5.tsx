@@ -3,7 +3,7 @@ function Button() {
     <>
       <div id="viewer">
         <div className="px-4 py-8">
-          <h2 className="text-5xl font-bold">Button #5</h2>
+          <h2 className="text-5xl font-bold">Button #5 - Animated Gradient On Hover</h2>
           <div className="py-5">
             <a href="/buttons/5" className="bn5">
               Hover
@@ -96,6 +96,14 @@ function Button() {
   top: 0;
   border-radius: 10px;
 }`}</pre>
+          </div>
+          <div className="py-5">
+            <a
+              href="https://cssbuttons.app"
+              className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+            >
+              ← See more buttons
+            </a>
           </div>
         </div>
       </div>
