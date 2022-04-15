@@ -18,7 +18,6 @@ function Button() {
             Creator:{" "}
             <a
               href="https://getcssscan.com/?ref=cssbuttonsapp"
-              target="_blank"
             >
               CSS Scan
             </a>

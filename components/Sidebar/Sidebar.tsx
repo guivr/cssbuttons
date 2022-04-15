@@ -62,7 +62,6 @@ export default function Sidebar() {
                 <a
                   className="bglink"
                   href="https://getcssscan.com/?ref=cssbuttonsapp"
-                  target="_blank"
                 >
                   CSS Scan extension
                 </a>
