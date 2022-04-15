@@ -3,7 +3,7 @@ function Button() {
     <>
       <div id="viewer">
         <div className="px-4 py-8">
-          <h2 className="text-5xl font-bold">Button#22</h2>
+          <h2 className="text-5xl font-bold">Button #22</h2>
           <div className="py-5">
             <a href="/buttons/22">
               <button className="bn632-hover bn22">Button</button>
