@@ -1524,4 +1524,29 @@ a.bn11:hover {
   font-weight: 600;
 }
 
+.bn63 {
+  color: hotpink;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  width: 8em;
+  font-size: large;
+  font-weight: 600;
+  position: relative;
+}
+
+.bn63:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #393D47;
+  transform: skewX(-9deg);
+}
+
 /** Button End **/
