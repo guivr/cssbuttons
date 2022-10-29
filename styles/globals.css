@@ -339,10 +339,11 @@ body {
   transition: all 150ms;
   background-size: 120% 120%;
   background-image: radial-gradient(100% 102% at 50% -2%, #04761D 48.3%, #023010 100%);
+  background-position: 40% 50%;
 }
 
 .cssscan:hover {
-  background-position: 40% 50%;
+  background-position: 70% 10%;
 }
 
 .cssscan img {
