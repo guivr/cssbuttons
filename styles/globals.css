@@ -336,7 +336,7 @@ body {
   bottom: 15px;
   position: absolute;
   margin-right: 15px;
-  background-image: radial-gradient(100% 101% at 50% -1%, #0F932C 48.3%, #04531D 100%);
+  background-image: radial-gradient(100% 102% at 50% -2%, #04761D 48.3%, #023010 100%);
   font-weight: bold;
 }
 
