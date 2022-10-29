@@ -337,14 +337,13 @@ body {
   position: absolute;
   margin-right: 15px;
   background-image: radial-gradient(100% 102% at 50% -2%, #04761D 48.3%, #023010 100%);
-  font-weight: bold;
 }
 
 .cssscan img {
   vertical-align: middle;
   width: 22px;
   display: inline;
-  margin-right: 5px;
+  margin-right: 8px;
 }
 
 
