@@ -776,12 +776,11 @@ a.bn11:hover {
 }
 
 .bn632-hover {
-  width: 160px;
+  width: 150px;
   font-size: 16px;
   font-weight: 600;
   color: #fff;
   cursor: pointer;
-  margin: 20px;
   height: 55px;
   text-align: center;
   border: none;
