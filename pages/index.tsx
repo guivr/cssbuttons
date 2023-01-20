@@ -17,7 +17,6 @@ export default function Home() {
       <Buttons />
       <ins
         className="adsbygoogle"
-        style="display:block"
         data-ad-client="ca-pub-6099445439299322"
         data-ad-slot="6817517186"
         data-ad-format="auto"
