@@ -18,8 +18,11 @@ function MyApp({ Component, pageProps }) {
         />
         <meta name="author" content="Jack Latimer" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6099445439299322"
-     crossorigin="anonymous"></script>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6099445439299322"
+          crossOrigin="anonymous"
+        />
       </Head>
       <Sidebar />
       <Component {...pageProps} />
