@@ -392,6 +392,16 @@ export default function Viewer() {
           </a>
         </div>
       </div>
+      <ins
+        className="adsbygoogle"
+        data-ad-client="ca-pub-6099445439299322"
+        data-ad-slot="6817517186"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      />
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
     </div>
   );
 }
