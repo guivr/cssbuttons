@@ -1557,6 +1557,7 @@ a.bn11:hover {
   color:black;
   font-weight: 600;
   transition: all 400ms;
+  padding:10px 25px
 }
 .neon-light:hover{
   box-shadow: 0px 5px 30px #3ccbfa48;

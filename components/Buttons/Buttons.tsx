@@ -19,7 +19,7 @@ export default function Viewer() {
         </div>
         {/* develop */}
         <div className="btndiv dark">
-          <a href="/buttons/62" className="neon-light p-2 px-8">
+          <a href="/buttons/63" className="neon-light">
             Button
           </a>
         </div>
