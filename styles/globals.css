@@ -1551,5 +1551,16 @@ a.bn11:hover {
   font-size: large;
   font-weight: 600;
 }
-
+.neon-light{
+  background: linear-gradient(to right, #33ccff 40%, #99ffff 100%);
+  border-radius: 5px;
+  color:black;
+  font-weight: 600;
+  transition: all 400ms;
+  padding:10px 25px
+}
+.neon-light:hover{
+  box-shadow: 0px 5px 30px #3ccbfa48;
+  margin-bottom: 5px;
+}
 /** Button End **/
