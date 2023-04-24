@@ -5,6 +5,11 @@ export default function Viewer() {
     <div id="viewer">
       <div id="viewerbuttons">
         <div className="btndiv dark">
+          <a href="/buttons/63" className="bn63">
+            Button
+          </a>
+        </div>
+        <div className="btndiv dark">
           <a href="/buttons/62" className="bn62">
             Button
           </a>
